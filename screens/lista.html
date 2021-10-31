@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Листа аутобуса</title>
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
+    <!--javascript-->
+    <script src="/red_voznje_pwa/js/app.js"></script>
+    <!--css-->
+    <link rel="stylesheet" href="/red_voznje_pwa/css/style.css">
+    <!--favicons-->
+    <link rel="icon" href="/red_voznje_pwa/assets/favicon.png" type="image/png"/>
+<link rel="shortcut icon" href="/red_voznje_pwa/assets/favicon.png" type="image/png"/>
+<!--manifest-->
+<link rel="manifest" href="/red_voznje_pwa/manifest.json">
+<!--description-->
+<meta name="descripion" content="Bus schedule app"/>
+</head>
+<body>
+    <center>
+        <div class="top_bar">
+        <button onclick="back()">Назад</button>
+    <h2 id="home_title">Листа аутобуса</h2>
+</div>
+    <br><br><br>    
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus1.html'">1 - (Голочело) Драгобраћа - Корман (Ботуње)</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus2.html'">2 - (Нови Милановац) Петровац - Ждраљица (Доња Сабанта)</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus3.html'">3 - Денино Брдо - Бресница (Водовод)</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus4.html'">4 - Аутобуска станица - Стара колонија</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus5.html'">5 - Виногради - Мале Пчелице</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus6.html'">6 - (Кванташ) Аутобуска станица - Грошница</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus8.html'">8 - (Вишњак) Багремар - Илићево Споменик (Стара општина)</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus9.html'">9 - Ћифтина Ћуприја - Цветојевац</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus10.html'">10 - Ердеч - Маршић</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus11.html'">11 - Хотел - Станово - Хотел</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus13.html'">13 - Трмбас - Грошница</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus14.html'">14 - Трмбас - Кванташ</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus15.html'">15 - Корићани - Шумарице (Драча)</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus16.html'">16 - Велико Поље - Десимировац (Село)</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus17.html'">17 - Баљковац - Дом Старих - Језеро</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus18.html'">18 - Бозман - Мала Вага - Бозман</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus19.html'">19 - Денино Брдо - Центар - Денино Брдо</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus20.html'">20 - Денино Брдо - Корићани</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus24.html'">24 - Ћава - Кошутњак брдо</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus25.html'">25 - Ердеч - Шумски рај</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus26.html'">26 - Мале Пчелице (Старо село) - Теферич (Викенд насеље)</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus600.html'">600 - Крагујевац - В. Сугубина - Ракаљ I</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus601.html'">601 - Ћифтина Ћуприја - Букоровац</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus602.html'">602 - Крагујевац - Роговац - Каменица</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus603.html'">603 - Крагујевац - Доње Грбице</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus604.html'">604 - Ћифтина Ћуприја - Ресник</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus605.html'">605 - Крагујевац - Дулене</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus606.html'">606 - Крагујевац - Страгари</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus607.html'">607 - Крагујевац - Доње Комарице</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus608.html'">608 - Крагујевац - MIND - Горње Јарушице</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus609.html'">609 - Крагујевац - Г. Грбице - Пајазитово - М. Врбица</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus610.html'">610 - Крагујевац - Дреновац - Ђурисело</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus611.html'">611 - Крагујевац - Лужнице</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus612.html'">612 - Крагујевац - Вињиште</button>
+    <button class="selector" onclick="document.location='/red_voznje_pwa/screens/selector/bus613.html'">613 - Крагујевац - Лужнице - М. Врбица</button>
+</center>
+</body>
+</html>
