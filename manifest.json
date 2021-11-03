@@ -9,11 +9,11 @@
     "icons":
     [
         {
-            "src": "app192.png",
+            "src": "/red_voznje_pwa/assets/app192.png",
             "sizes": "192x192"
           },
           {
-            "src": "app512.png",
+            "src": "/red_voznje_pwa/assets/app512.png",
             "sizes": "512x512"
           }
     ]
