@@ -71,4 +71,5 @@ h3{
 span{
     font-size: 12px;
     text-align: left;
+    display: list-item;
 }
