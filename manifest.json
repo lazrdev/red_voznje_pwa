@@ -1,7 +1,7 @@
 {
     "name":"Ред вожње Крагујевац",
     "short_name":"Ред вожње",
-    "lang":"en-US",
+    "lang":"rs",
     "start_url":"/red_voznje_pwa/index.html",
     "display":"standalone",
     "background_color":"white",
