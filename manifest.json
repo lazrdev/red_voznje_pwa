@@ -4,7 +4,7 @@
     "lang":"rs",
     "start_url":"/red_voznje_pwa/index.html",
     "display":"standalone",
-    "background_color":"#b9b9b9",
+    "background_color":"white",
     "theme_color":"#b9b9b9",
     "icons":
     [
