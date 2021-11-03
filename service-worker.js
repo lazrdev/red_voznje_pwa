@@ -7,22 +7,10 @@ const RESOURCES_TO_PRELOAD = [
   "/red_voznje_pwa/js/app.js",
   "/red_voznje_pwa/screens/lista.html",
   "/red_voznje_pwa/screens/selector/bus1.html",
-  "/red_voznje_pwa/screens/radni/bus1.html"
+  "/red_voznje_pwa/screens/radni/bus1.html",
+  "/red_voznje_pwa/screens/subota/bus1.html",
+  "/red_voznje_pwa/screens/nedelja/bus1.html",
 ];
-
-/* 
-   // Note: if you want to preload the UI5 core and mobile libraries by install,
-   // uncomment this block of code
-	const cdnBase = 'https://openui5.hana.ondemand.com/resources/';
-	resourcesToCache = resourcesToCache.concat([
-		`${cdnBase}sap-ui-core.js`,
-		`${cdnBase}sap/ui/core/library-preload.js`,
-		`${cdnBase}sap/ui/core/themes/sap_belize_plus/library.css`,
-		`${cdnBase}sap/ui/core/themes/base/fonts/SAP-icons.woff2`,
-		`${cdnBase}sap/m/library-preload.js`,
-		`${cdnBase}sap/m/themes/sap_belize_plus/library.css`
-	]);
-*/
 
 // Preload some resources during install
 self.addEventListener('install', function (event) {
