@@ -71,5 +71,7 @@ h3{
 }
 footer{
     align-items: center;
-    padding:10px;
+    padding-left:10px;
+    padding-right:10px;
+
 }
