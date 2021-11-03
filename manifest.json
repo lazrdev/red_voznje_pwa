@@ -2,7 +2,7 @@
     "name":"Ред вожње Крагујевац",
     "short_name":"Ред вожње",
     "lang":"en-US",
-    "start_url":"https://lazrdev.github.io/red_voznje_pwa/index.html",
+    "start_url":"/red_voznje_pwa/index.html",
     "display":"standalone",
     "background_color":"white",
     "theme_color":"white",
