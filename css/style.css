@@ -36,6 +36,7 @@ h2{
 .bottom_selector{
     position:fixed;
     bottom:0px;
+    width: 100%;
 }
 .top_bar{
     position:fixed;
