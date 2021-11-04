@@ -10,6 +10,14 @@ const RESOURCES_TO_PRELOAD = [
   "/red_voznje_pwa/screens/radni/bus1.html",
   "/red_voznje_pwa/screens/subota/bus1.html",
   "/red_voznje_pwa/screens/nedelja/bus1.html",
+  "/red_voznje_pwa/screens/radni/bus2.html",
+	"/red_voznje_pwa/screens/subota/bus2.html",
+	"/red_voznje_pwa/screens/nedelja/bus2.html",
+	"/red_voznje_pwa/screens/selector/bus2.html",
+	"/red_voznje_pwa/screens/radni/bus3.html",
+	"/red_voznje_pwa/screens/subota/bus3.html",
+	"/red_voznje_pwa/screens/nedelja/bus3.html",
+	"/red_voznje_pwa/screens/selector/bus3.html",
 ];
 
 // Preload some resources during install
