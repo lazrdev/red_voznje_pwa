@@ -1,6 +1,6 @@
 {
     "name":"Ред вожње Крагујевац",
-    "short_name":"Ред вожње",
+    "short_name":"КГ Бус",
     "lang":"rs",
     "start_url":"/red_voznje_pwa/index.html",
     "display":"standalone",
