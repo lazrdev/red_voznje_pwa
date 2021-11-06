@@ -48,6 +48,8 @@ h2{
     width: 100%;
     padding-top:10px;
     padding-bottom: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 .top_bar>h2#home_title{
     display:inline;
