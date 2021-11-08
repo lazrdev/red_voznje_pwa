@@ -27,10 +27,11 @@ button.selector{
     height: 60px;
 }
 footer{
-    width: 100%;
+    width: 95%;
     background-color:#7bc9ff;
     padding:10px;
     border-radius:20px;
+    margin-bottom:10px;
 }
 h2{
     margin-top:50px;
@@ -76,10 +77,4 @@ h3{
 }
 span{
     font-size: 12px;
-}
-.container{
-    margin:10px;
-    position: fixed;
-    bottom:0px;
-    width:auto;
 }
