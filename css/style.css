@@ -29,7 +29,8 @@ button.selector{
 footer{
     position:fixed;
     bottom:0px;
-    width: 100%;
+    display: flex;
+    width: auto;
     padding-right: 20px;
     background-color:#7bc9ff;
     padding:10px;
