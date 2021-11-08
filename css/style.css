@@ -5,7 +5,7 @@
 }
 body{
     background-color: white;
-    color: #380c00;
+    color: #001c2c;
 }
 h1#home_title{
     font-size:20px;
@@ -22,7 +22,7 @@ button.selector{
     border-radius: 15px;
     border-style: none;
     width: 95%;
-    background-color: #ffdbd0;
+    background-color: #0d4a75;
     margin-bottom: 10px;
     height: 60px;
 }
@@ -31,7 +31,7 @@ footer{
     bottom:0px;
     width: 100%;
     padding-right: 20px;
-    background-color:#ffb5a0;
+    background-color:#7bc9ff;
 }
 h2{
     margin-top:50px;
@@ -45,7 +45,7 @@ h2{
 .top_bar{
     position:fixed;
     top:0px;
-    background-color: #ffb5a0;
+    background-color: #7bc9ff;
     width: 100%;
     padding-top:10px;
     padding-bottom: 10px;
@@ -73,7 +73,7 @@ p{
 h3{
     text-align: left;
     padding:10px;
-    background-color: #ffdbd0;
+    background-color: #c0e5ff;
 }
 span{
     font-size: 12px;
