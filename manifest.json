@@ -5,7 +5,7 @@
     "start_url":"/red_voznje_pwa/index.html",
     "display":"standalone",
     "background_color":"white",
-    "theme_color":"#FFBF86",
+    "theme_color":"#7bc9ff",
     "icons":
     [
         {
