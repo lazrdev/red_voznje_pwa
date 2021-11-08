@@ -31,9 +31,8 @@ footer{
     background-color:#7bc9ff;
     padding:10px;
     border-radius:20px;
-    margin-bottom:10px;
     position:fixed;
-    bottom:0px;
+    bottom:10px;
 }
 h2{
     margin-top:50px;
