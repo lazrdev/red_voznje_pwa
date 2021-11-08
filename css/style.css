@@ -79,6 +79,7 @@ span{
 }
 .container{
     margin:10px;
-    position: sticky;
+    position: absolute;
     bottom:0px;
+    width: 100%;
 }
