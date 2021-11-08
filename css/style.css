@@ -79,6 +79,6 @@ span{
 }
 .container{
     margin:10px;
-    position: fixed;
+    position: sticky;
     bottom:0px;
 }
