@@ -1,11 +1,12 @@
 {
-    "name":"Ред вожње Крагујевац",
+    "name":"КГ Бус",
     "short_name":"КГ Бус",
     "lang":"rs",
     "start_url":"/red_voznje_pwa/index.html",
     "display":"standalone",
     "background_color":"white",
     "theme_color":"#7bc9ff",
+    "description":"Ред ввожње за Крагујевац",
     "icons":
     [
         {
