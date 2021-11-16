@@ -55,6 +55,7 @@ h2{
 .top_bar>h2#home_title{
     display:inline;
     padding-left: 120px;
+    font-size: 20px;
 }
 .top_bar>button{
     display: inline;
