@@ -22,7 +22,7 @@ button.selector{
     border-radius: 20px;
     border-style: none;
     width: 95%;
-    background-color: linear-gradient(90deg, rgba(98,169,214,1) 0%, rgba(0,212,255,1) 100%);
+    background-color: #c0e5ff;
     margin-bottom: 10px;
     height: 60px;
 }
