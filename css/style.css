@@ -22,7 +22,7 @@ button.selector{
     border-radius: 20px;
     border-style: none;
     width: 95%;
-    background-color: #c0e5ff;
+    background-color: linear-gradient(90deg, rgba(98,169,214,1) 0%, rgba(0,212,255,1) 100%);
     margin-bottom: 10px;
     height: 60px;
 }
@@ -59,7 +59,7 @@ h2{
 }
 .top_bar>button{
     display: inline;
-    background-color: linear-gradient(90deg, rgba(98,169,214,1) 0%, rgba(0,212,255,1) 100%);
+    background-color: rgba(0,0,0,0);
     border:none;
     font-size: 18px;
     font-weight: bold;
